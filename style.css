@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    /* margin: 0;
+    padding: 0; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: 'Arial', sans-serif;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+    color: #111;
+}
+
+
+body {
+    text-align: center ;
+}
+
+.btn{
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 5px solid black;
+    margin: 2.2rem;
+}
+
+.btn-container{
+    display:  flex;
+    justify-content: center;
+
+}
+
+.red{
+  background-color: rgb(215, 59, 59);
+}
+
+.yellow{
+    background-color: rgb(203, 203, 40);
+}
+ 
+.green{
+    background-color: rgb(14, 143, 14);
+}
+.purple{
+    background-color: rgb(161, 18, 161);
+}
+
+.flash{
+    background-color: white;
+}
+.userflash{
+    background-color: rgb(255, 255, 255);
+}
+
+#highScoreText {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: black;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+    margin-top: 1rem;
+}
